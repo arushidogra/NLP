@@ -1,0 +1,25 @@
+For the sentences in the ToyTestData compute the likelihood for the following four models -
+	1) Trigram model with laplace smoothing
+        2) Trigram model with Good Turing Smoothing
+        3) Language model with laplace smoothing and linear interpolation (Use lambda values 0.5,0.3,0.2 for trigram,bigram and unigram models respectively).
+	4) Language model with Good Turing smoothing and linear interpolation (Use lambda values 0.5,0.3,0.2 for trigram,bigram and unigram models respectively).
+
+
+NOTE: Likelihood is the product of n-gram probabilities.
+      For building the language model you have to use the data provided in assignment-2 and find the likelihood for sentences in test corpora.
+
+Possible Issues to Handle -
+  - Unseen words. (For Good Turing you can use N1 as N0)
+  - For Good Turing Smoothing some bins may be empty. 
+    (No curve fitting function required. Use the next available higher bin to estimate r* for empty bins)
+  - Tokenization in the test set.
+
+Deliverables -
+  -  Codes for Smoothing and language modeling 
+  -  A well-typed report with your analysis on the points mentioned above and results.
+
+	(Kindly do not upload the data sets)
+
+Deadline - 28th September, Monday
+           11:59 p.m
+

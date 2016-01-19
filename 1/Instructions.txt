@@ -1,0 +1,38 @@
+As discussed in class,you need to perform tokenisation on ALL the three datasets.You have to do the following tasks on each dataset :
+1)Find unigram,bigrams,trigrams:For the given dataset,write programs to find the gram(s) and store the count for each gram(s) in an output text file in a reverse sorted order.
+
+Eg:I am happy,I took N.L.P. course.
+
+('I')	2
+('am')	1
+('happy')	1
+(',')	1
+('N.L.P.')	1
+('course')	1
+('.')	1
+
+
+
+2)Plot the Zipf's law for the unigram,bigrams,trigrams. 
+3)A short report on the the experiments and observations.
+
+For submitting the assignment,the directory structure would be :
+
+Assignment_1_RollNo
+  -English
+	-Unigram
+		-UnigramEnglish.py/UnigramEnglish.java
+		-unigram_english_output.txt		
+		-unigram_english_plot.jpeg
+	-Bigrams
+		-BigramsEnglish.py/BigramsEnglish.java
+		-bigrams_english_output.txt		
+		-bigrams_english_plot.jpeg
+	-Trigrams
+		-TrigramsEnglish.py/TrigramsEnglish.java
+		-trigrams_english_output.txt		
+		-trigrams_english_plot.jpeg		-
+  -Hindi
+  -Telegu
+
+Compress the folder Assignment_1_RollNo.tar.gz and upload.
